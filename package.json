@@ -13,18 +13,24 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
     "@fortawesome/free-regular-svg-icons": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.11.0",
     "daisyui": "^5.0.46",
+    "effect": "^3.17.7",
     "gh-pages": "^6.3.0",
+    "node-zendesk": "^6.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.0",
     "react-svg": "^16.3.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "zendesk_app_framework_sdk": "^2.0.11",
+    "zod": "^4.0.17"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

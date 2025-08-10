@@ -10,6 +10,7 @@ import building4 from '../assets/building4.jpg'
 import building5 from '../assets/building5.jpg'
 import building6 from '../assets/building6.jpg'
 import building7 from '../assets/building7.jpg'
+import Zendesk2 from "./Zendesk2";
 
 const Home = () => {
   const carouselRef = useRef(null);
@@ -33,11 +34,13 @@ const Home = () => {
           });
         }
       }
-    }, 3000); 
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
   return (
     <div className="h-[100vh] w-[100%] mx-4 mt-2 rounded-3xl sm:flex">
+      <Zendesk2 />
+
       {/* Foreground content */}
       <div className=" flex flex-col pt-10 mt-10 px-1 text-white sm:justify-center sm:p-20 sm:pt-30 md:m-2 sm:w-1/2 md:items-start  md:pl-20 md:justify-center lg:pl-30">
         <h1 className="font-bold text-5xl sm:text-5xl md:text-7xl lg:text-8xl ">
@@ -73,55 +76,55 @@ const Home = () => {
               className="w-full"
               alt="Tailwind CSS Carousel component"
             />
-          <div className="carousel-item w-full">
-            <img
-              src={building1}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building2}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building3}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building4}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building5}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building6}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
-          <div className="carousel-item w-full">
-            <img
-              src={building7}
-              className="w-full"
-              alt="Tailwind CSS Carousel component"
-            />
-          </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building1}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building2}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building3}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building4}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building5}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building6}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src={building7}
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
           </div>
         </div>
       </div>
