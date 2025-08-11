@@ -11,7 +11,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript Logo" width="60">
   </a>
   <a href="https://effect.website/" target="_blank">
-    <img src="https://www.effect.website/img/logo.svg" alt="Effect-TS Logo" width="60">
+    <img src="https://img.freepik.com/premium-vector/3d-text-effect-with-word-effect_956226-721.jpg" alt="Effect-TS Logo" width="60">
   </a>
   <a href="https://nodejs.org/" target="_blank">
     <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js Logo" width="60">
@@ -62,44 +62,59 @@ A robust and opinionated starter pack designed to kickstart your full-stack appl
 ### Prerequisites
 
 - Node.js (LTS version recommended)
-- npm or Yarn
+- npm
+- **yarn (optional, but commonly used):**
+
+  ```bash
+  npm install -g yarn
+  ```
 
 ### Installation
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone [https://github.com/Hamza-Ehmed/React-vite-ts-effectjs-node-starter-pack.git](https://github.com/Hamza-Ehmed/React-vite-ts-effectjs-node-starter-pack.git)
-    cd React-vite-ts-effectjs-node-starter-pack
-    ```
+   ```bash
+   git clone https://github.com/Hamza-Ehmed/React-vite-ts-effectjs-node-starter-pack.git
+   ```
+
+   ```bash
+   cd React-vite-ts-effectjs-node-starter-pack
+   ```
 
 2. **Install dependencies for both client and server:**
 
-    **For the Frontend (client/):**
+   **Install yarn**
 
-    ```bash
-    cd client
-    npm install # or yarn install
-    ```
+   ```bash
+   cd client
+   npm install -g yarn
+   ```
 
-    **For the Backend (server/):**
+   **For the Frontend (client/):**
 
-    ```bash
-    cd ../server
-    npm install # or yarn install
-    ```
+   ```bash
+   cd client
+   yarn install # or yarn install
+   ```
+
+   **For the Backend (server/):**
+
+   ```bash
+   cd ../server
+   yarn install # or yarn install
+   ```
 
 3. **Configure Environment Variables (Optional but Recommended):**
-    Create a `.env` file in the `server/` directory for backend environment variables (e.g., database connection strings, API keys).
+   Create a `.env` file in the `server/` directory for backend environment variables (e.g., database connection strings, API keys).
 
-    ```
-    # server/.env
-    PORT=5000
-    DATABASE_URL="your_database_connection_string"
-    # etc.
-    ```
+   ```
+   # server/.env
+   PORT=5000
+   DATABASE_URL="your_database_connection_string"
+   # etc.
+   ```
 
-    And similarly in the `client/` directory for frontend environment variables if needed.
+   And similarly in the `client/` directory for frontend environment variables if needed.
 
 ### Running the Project
 

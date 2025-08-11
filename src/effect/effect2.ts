@@ -2,7 +2,6 @@ import { Effect } from 'effect';
 import axios from 'axios';
 import { selectHttpError, UnknownError } from './errorDefinitions';
 
-
 export const getJson = (link: string) =>
     Effect.gen(function* () {
         const post = yield* Effect.tryPromise({
@@ -20,8 +19,3 @@ export const getJson = (link: string) =>
         });
         return post
     })
-
-// example usage
-const runEffect2 = async (link: string) => {
-    const result = await Effect.runPromise(getJson(link))
-}
